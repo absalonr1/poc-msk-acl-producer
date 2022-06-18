@@ -1,8 +1,0 @@
-docker run -p 8080:8080 \
--e KAFKA_BROKERS=b-1.testingcluster.047th7.c8.kafka.us-west-2.amazonaws.com:9096,b-2.testingcluster.047th7.c8.kafka.us-west-2.amazonaws.com:9096 \
--e KAFKA_TLS_ENABLED=true \
--e KAFKA_SASL_ENABLED=true \
--e KAFKA_SASL_MECHANISM=SCRAM-SHA-512 \
--e KAFKA_SASL_USERNAME=bx.user.msk.dev \
--e KAFKA_SASL_PASSWORD=cqGVch0Zmh3ou0UoWJRbZyq01qYcUR4I \
-quay.io/cloudhut/kowl:master
